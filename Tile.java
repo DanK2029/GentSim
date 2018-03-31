@@ -3,9 +3,9 @@
  */
 public class Tile {
     private double propertyValue;
-    private Household household;
+    private Property household;
 
-    public Tile(double propertyValue, Household household) {
+    public Tile(double propertyValue, Property household) {
         this.propertyValue = propertyValue;
         this.household = household;
     }
@@ -14,7 +14,7 @@ public class Tile {
         return this.propertyValue;
     }
 
-    Household getHouseholds() {
+    Property getHouseholds() {
         return this.household;
     }
 }
